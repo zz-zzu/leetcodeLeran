@@ -1,0 +1,4 @@
+/Users/Zhengz/CLionProjects/Learn/cmake-build-debug/CMakeFiles/main_1.dir
+/Users/Zhengz/CLionProjects/Learn/cmake-build-debug/CMakeFiles/main_2.dir
+/Users/Zhengz/CLionProjects/Learn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Zhengz/CLionProjects/Learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
