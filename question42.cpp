@@ -33,7 +33,7 @@ public:
     int trap_2(vector<int>& height)
     //采用单调栈的方法
     {
-        vector<int> stack(height.size());
+        stack<int> stk(height.size());
         while(stack)
 
     }
