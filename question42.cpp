@@ -30,8 +30,17 @@ public:
 
     }
 
+    int trap_2(vector<int>& height)
+    //采用单调栈的方法
+    {
+        vector<int> stack(height.size());
+        while(stack)
+
+    }
+
     int trap_3(vector<int>& height)
     //动态规划
+    //关键点在于求左右的较大数组
     {
         int result=0;
         int length = height.size();
