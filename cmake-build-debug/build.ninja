@@ -102,6 +102,68 @@ build main_2: CXX_EXECUTABLE_LINKER__main_2_Debug CMakeFiles/main_2.dir/question
   TARGET_FILE = main_2
   TARGET_PDB = main_2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target main_3
+
+
+#############################################
+# Order-only phony target for main_3
+
+build cmake_object_order_depends_target_main_3: phony || .
+
+build CMakeFiles/main_3.dir/question3.cpp.o: CXX_COMPILER__main_3_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question3.cpp || cmake_object_order_depends_target_main_3
+  DEP_FILE = CMakeFiles/main_3.dir/question3.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_3
+
+
+#############################################
+# Link the executable main_3
+
+build main_3: CXX_EXECUTABLE_LINKER__main_3_Debug CMakeFiles/main_3.dir/question3.cpp.o
+  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/main_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_3
+  TARGET_PDB = main_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_4
+
+
+#############################################
+# Order-only phony target for main_4
+
+build cmake_object_order_depends_target_main_4: phony || .
+
+build CMakeFiles/main_4.dir/question438.cpp.o: CXX_COMPILER__main_4_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question438.cpp || cmake_object_order_depends_target_main_4
+  DEP_FILE = CMakeFiles/main_4.dir/question438.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_4
+
+
+#############################################
+# Link the executable main_4
+
+build main_4: CXX_EXECUTABLE_LINKER__main_4_Debug CMakeFiles/main_4.dir/question438.cpp.o
+  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/main_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_4
+  TARGET_PDB = main_4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/Zhengz/CLionProjects/Learn/cmake-build-debug
 
-build all: phony main_1 main_2
+build all: phony main_1 main_2 main_3 main_4
 
 # =============================================================================
 # Built-in targets
