@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_main_1: phony || .
 
 build CMakeFiles/main_1.dir/main.cpp.o: CXX_COMPILER__main_1_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/main.cpp || cmake_object_order_depends_target_main_1
   DEP_FILE = CMakeFiles/main_1.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main_1.dir
   OBJECT_FILE_DIR = CMakeFiles/main_1.dir
 
@@ -64,7 +64,7 @@ build CMakeFiles/main_1.dir/main.cpp.o: CXX_COMPILER__main_1_unscanned_Debug /Us
 # Link the executable main_1
 
 build main_1: CXX_EXECUTABLE_LINKER__main_1_Debug CMakeFiles/main_1.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/main_1.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_main_2: phony || .
 
 build CMakeFiles/main_2.dir/question42.cpp.o: CXX_COMPILER__main_2_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question42.cpp || cmake_object_order_depends_target_main_2
   DEP_FILE = CMakeFiles/main_2.dir/question42.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main_2.dir
   OBJECT_FILE_DIR = CMakeFiles/main_2.dir
 
@@ -95,7 +95,7 @@ build CMakeFiles/main_2.dir/question42.cpp.o: CXX_COMPILER__main_2_unscanned_Deb
 # Link the executable main_2
 
 build main_2: CXX_EXECUTABLE_LINKER__main_2_Debug CMakeFiles/main_2.dir/question42.cpp.o
-  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/main_2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_main_3: phony || .
 
 build CMakeFiles/main_3.dir/question3.cpp.o: CXX_COMPILER__main_3_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question3.cpp || cmake_object_order_depends_target_main_3
   DEP_FILE = CMakeFiles/main_3.dir/question3.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main_3.dir
   OBJECT_FILE_DIR = CMakeFiles/main_3.dir
 
@@ -126,7 +126,7 @@ build CMakeFiles/main_3.dir/question3.cpp.o: CXX_COMPILER__main_3_unscanned_Debu
 # Link the executable main_3
 
 build main_3: CXX_EXECUTABLE_LINKER__main_3_Debug CMakeFiles/main_3.dir/question3.cpp.o
-  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/main_3.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_main_4: phony || .
 
 build CMakeFiles/main_4.dir/question438.cpp.o: CXX_COMPILER__main_4_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question438.cpp || cmake_object_order_depends_target_main_4
   DEP_FILE = CMakeFiles/main_4.dir/question438.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/main_4.dir
   OBJECT_FILE_DIR = CMakeFiles/main_4.dir
 
@@ -157,12 +157,105 @@ build CMakeFiles/main_4.dir/question438.cpp.o: CXX_COMPILER__main_4_unscanned_De
 # Link the executable main_4
 
 build main_4: CXX_EXECUTABLE_LINKER__main_4_Debug CMakeFiles/main_4.dir/question438.cpp.o
-  FLAGS = -g -arch arm64 -mmacosx-version-min=14.7
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/main_4.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = main_4
   TARGET_PDB = main_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_5
+
+
+#############################################
+# Order-only phony target for main_5
+
+build cmake_object_order_depends_target_main_5: phony || .
+
+build CMakeFiles/main_5.dir/question239.cpp.o: CXX_COMPILER__main_5_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/question239.cpp || cmake_object_order_depends_target_main_5
+  DEP_FILE = CMakeFiles/main_5.dir/question239.cpp.o.d
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_5
+
+
+#############################################
+# Link the executable main_5
+
+build main_5: CXX_EXECUTABLE_LINKER__main_5_Debug CMakeFiles/main_5.dir/question239.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/main_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_5
+  TARGET_PDB = main_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_6
+
+
+#############################################
+# Order-only phony target for main_6
+
+build cmake_object_order_depends_target_main_6: phony || .
+
+build CMakeFiles/main_6.dir/二叉树.cpp.o: CXX_COMPILER__main_6_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/二叉树.cpp || cmake_object_order_depends_target_main_6
+  DEP_FILE = CMakeFiles/main_6.dir/二叉树.cpp.o.d
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_6
+
+
+#############################################
+# Link the executable main_6
+
+build main_6: CXX_EXECUTABLE_LINKER__main_6_Debug CMakeFiles/main_6.dir/二叉树.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/main_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_6
+  TARGET_PDB = main_6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_7
+
+
+#############################################
+# Order-only phony target for main_7
+
+build cmake_object_order_depends_target_main_7: phony || .
+
+build CMakeFiles/main_7.dir/图论.cpp.o: CXX_COMPILER__main_7_unscanned_Debug /Users/Zhengz/CLionProjects/Learn/图论.cpp || cmake_object_order_depends_target_main_7
+  DEP_FILE = CMakeFiles/main_7.dir/图论.cpp.o.d
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_7.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_7
+
+
+#############################################
+# Link the executable main_7
+
+build main_7: CXX_EXECUTABLE_LINKER__main_7_Debug CMakeFiles/main_7.dir/图论.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/main_7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_7
+  TARGET_PDB = main_7.dbg
 
 
 #############################################
@@ -198,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/Zhengz/CLionProjects/Learn/cmake-build-debug
 
-build all: phony main_1 main_2 main_3 main_4
+build all: phony main_1 main_2 main_3 main_4 main_5 main_6 main_7
 
 # =============================================================================
 # Built-in targets
